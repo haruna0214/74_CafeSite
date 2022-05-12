@@ -32,7 +32,7 @@ li {
   margin-bottom: 70px;
 }
 
-#header {
+.header {
   width: 100%;
   min-height: 100vh;
   background-image: url(../06_74_Storesite/img/mainvisual.jpg);
@@ -42,7 +42,7 @@ li {
   z-index: 0;
 }
 
-#header::before {
+.header::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -306,13 +306,13 @@ a.btn:hover {
   line-height: 2;
 }
 
-#footer {
+.footer {
   text-align: center;
   margin-bottom: 12px;
 }
 
 @media screen and (max-width: 599px) {
   .title {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 }
