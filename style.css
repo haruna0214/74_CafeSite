@@ -54,7 +54,7 @@ li {
   filter: blur(5px);
 }
 
-.title {
+.site-title {
   font-size: 10rem;
   color: #fff;
   position: absolute;
@@ -312,7 +312,7 @@ a.btn:hover {
 }
 
 @media screen and (max-width: 599px) {
-  .title {
+  .site-title {
     font-size: 6rem;
   }
 }
