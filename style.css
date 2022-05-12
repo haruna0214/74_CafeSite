@@ -315,4 +315,26 @@ a.btn:hover {
   .site-title {
     font-size: 6rem;
   }
+  .section-title {
+    font-size: 6rem;
+  }
+  .item-title {
+    font-size: 3rem;
+  }
+  .about-item {
+    width: 100%;
+    font-size: 1.5rem;
+    position: relative;
+  }
+  .menu-item {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+  }
+  .location-item {
+    width: 100%;
+    font-size: 1.5rem;
+    position: relative;
+  }
 }
