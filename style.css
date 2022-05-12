@@ -320,9 +320,7 @@ a.btn:hover {
     font-size: 5rem;
   }
   .about-item {
-    width: 100%;
-    font-size: 1.5rem;
-    position: relative;
+    padding: 0;
   }
   .about-img {
     width: 100%;
@@ -342,38 +340,34 @@ a.btn:hover {
   }
   .menu-item {
     width: 100%;
+    padding: 15px;
     text-align: center;
-    position: relative;
-    font-size: 1.5rem;
   }
   .menu-item:first-child {
     border-right: none;
   }
   .menu-img {
-    width: 100%;
     height: 95px;
-    background-image: url(../06_74_Storesite/img/menu.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+    background-attachment: scroll;
   }
   .menu-img .section-title {
     font-size: 4rem;
   }
   .location-img {
-    width: 100%;
     height: 95px;
-    background-image: url(../06_74_Storesite/img/location.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+    background-attachment: scroll;
   }
   .location-img .section-title {
     font-size: 4rem;
   }
   .location-item {
-    width: 100%;
-    font-size: 1.5rem;
-    position: relative;
+    padding: 0px;
+  }
+  .map {
+    margin: 0;
+  }
+  .address p {
+    line-height: 1.3;
+    margin-top: 10px;
   }
 }
