@@ -330,16 +330,20 @@ a.btn:hover {
   .about-img .section-title {
     font-size: 4rem;
   }
-  .about-list {
+  .about-lists .about-list {
     width: 100%;
     font-size: 1.5rem;
     line-height: 200%;
   }
   .menu-item {
     width: 100%;
+    padding: 0 20px;
     text-align: center;
     position: relative;
     font-size: 1.5rem;
+  }
+  .menu-item:first-child {
+    border-right: none;
   }
   .menu-img .section-title {
     font-size: 4rem;
