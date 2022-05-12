@@ -327,28 +327,52 @@ a.btn:hover {
 
 // SP
 @media screen and (max-width: 599px) {
+// 共通
+.item-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+// ヘッダーについて
   .site-title {
-    font-size: 6rem;
-  }
-  .section-title {
-    font-size: 6rem;
-  }
-  .item-title {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
+// セクション aboutについて
   .about-item {
     width: 100%;
     font-size: 1.5rem;
     position: relative;
+    // flex-direction: column;
     }
+    .about-img {
+      height: 95px;
+      .section-title {
+        font-size: 4rem;
+        }
+    }
+    .about-list {
+      width: 100%;
+      font-size: 1.5rem;
+      line-height: 200%;
+        }
+
+// セクション menuについて
   .menu-item {
-    width: 50%;
+    width: 100%;
     text-align: center;
     position: relative;
     font-size: 1.5rem;
     }
 
+    .menu-img .section-title {
+        font-size: 4rem;
+        }
+
+// セクション locationについて
+.location-img .section-title {
+  font-size: 4rem;
+}
   .location-item {
     width: 100%;
     font-size: 1.5rem;

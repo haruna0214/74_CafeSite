@@ -312,25 +312,40 @@ a.btn:hover {
 }
 
 @media screen and (max-width: 599px) {
-  .site-title {
-    font-size: 6rem;
-  }
-  .section-title {
-    font-size: 6rem;
-  }
   .item-title {
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .site-title {
+    font-size: 5rem;
   }
   .about-item {
     width: 100%;
     font-size: 1.5rem;
     position: relative;
   }
+  .about-img {
+    height: 95px;
+  }
+  .about-img .section-title {
+    font-size: 4rem;
+  }
+  .about-list {
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 200%;
+  }
   .menu-item {
-    width: 50%;
+    width: 100%;
     text-align: center;
     position: relative;
     font-size: 1.5rem;
+  }
+  .menu-img .section-title {
+    font-size: 4rem;
+  }
+  .location-img .section-title {
+    font-size: 4rem;
   }
   .location-item {
     width: 100%;
