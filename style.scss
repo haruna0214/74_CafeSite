@@ -91,7 +91,7 @@ nav ul {
 // セクション MENUについて
 .menu-img {
   width: 100%;
-  min-height: 50vh;
+  height: 50vh;
   background-image: url(../06_74_Storesite/img/menu.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -154,7 +154,7 @@ nav ul {
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  min-height: 50vh;
+  height: 50vh;
   position: relative;
 
   .section-title {
@@ -340,18 +340,12 @@ a.btn:hover {
 
 // セクション aboutについて
   .about-item {
-    // width: 100%;
     padding: 0;
-    // font-size: 1.5rem;
-    // position: relative;
     }
     .about-img {
-      width: 100%;
       height: 95px;
-      background-image: url(../06_74_Storesite/img/about.jpg);
-      background-size: cover;
-      background-attachment: fixed;
-      position: relative;
+      background-attachment: scroll;
+
         .section-title {
           font-size: 4rem;
         }
@@ -367,19 +361,15 @@ a.btn:hover {
     width: 100%;
     padding: 15px;
     text-align: center;
-    // position: relative;
-    // font-size: 1.5rem;
+
       &:first-child {
         border-right: none;
       }
     }
 .menu-img {
-  // width: 100%;
   height: 95px;
-  // background-image: url(../06_74_Storesite/img/menu.jpg);
-  // background-size: cover;
   background-attachment: scroll;
-  // position: relative;
+
     .section-title {
         font-size: 4rem;
         }
@@ -387,21 +377,15 @@ a.btn:hover {
 
 // セクション locationについて
 .location-img {
-  // width: 100%;
   height: 95px;
-  // background-image: url(../06_74_Storesite/img/location.jpg);
-  // background-size: cover;
   background-attachment: scroll;
-  // position: relative;
+
     .section-title {
       font-size: 4rem;
     }
 }
   .location-item {
-    // width: 100%;
-    // font-size: 1.5rem;
-    padding: 0px;
-    // position: relative;
+    padding: 10px;
     }
     .map {
       margin: 0;
