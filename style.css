@@ -324,7 +324,6 @@ a.btn:hover {
   }
   .about-img {
     height: 95px;
-    background-attachment: scroll;
   }
   .about-img .section-title {
     font-size: 4rem;
@@ -344,14 +343,12 @@ a.btn:hover {
   }
   .menu-img {
     height: 95px;
-    background-attachment: scroll;
   }
   .menu-img .section-title {
     font-size: 4rem;
   }
   .location-img {
     height: 95px;
-    background-attachment: scroll;
   }
   .location-img .section-title {
     font-size: 4rem;
