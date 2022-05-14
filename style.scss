@@ -91,14 +91,14 @@ nav ul {
 // セクション MENUについて
 .menu-img {
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   background-image: url(../06_74_Storesite/img/menu.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 
   .section-title {
-    font-size: 10rem;
+    font-size: 8rem;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -154,11 +154,11 @@ nav ul {
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   position: relative;
 
   .section-title {
-    font-size: 10rem;
+    font-size: 8rem;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -269,14 +269,14 @@ a.btn:hover {
 // セクション locationについて
 .location-img {
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   position: relative;
   background-image: url(../06_74_Storesite/img/location.jpg);
   background-size: cover;
   background-attachment: fixed;
 
   .section-title {
-    font-size: 10rem;
+    font-size: 8rem;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -392,7 +392,7 @@ a.btn:hover {
       margin-top: 10px;
     }
 }
-@media screen and (max-width: 929px) {
+@media screen and (max-width: 912px) {
   .about-lists .about-list {
     width: 100%;
   }
