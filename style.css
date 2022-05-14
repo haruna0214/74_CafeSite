@@ -364,3 +364,9 @@ a.btn:hover {
     margin-top: 10px;
   }
 }
+
+@media screen and (max-width: 929px) {
+  .about-lists .about-list {
+    width: 100%;
+  }
+}
